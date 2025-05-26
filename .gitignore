@@ -1,0 +1,42 @@
+# ===== WSPÓLNE (dla całego repo) =====
+.DS_Store
+*.log
+*.tmp
+
+# ===== CLIENT (.gitignore dla /client) =====
+/client/node_modules/
+/client/dist/
+/client/dist-ssr/
+/client/.local
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+/client/pnpm-debug.log*
+/client/lerna-debug.log*
+/client/.eslintcache
+/client/.next/
+/client/.env
+/client/.vscode/
+!/client/.vscode/extensions.json
+/client/.idea
+/client/*.suo
+/client/*.ntvs*
+/client/*.njsproj
+/client/*.sln
+/client/*.sw?
+
+# ===== SERVER (.gitignore dla /server) =====
+/server/target/
+/server/.classpath
+/server/.project
+/server/.settings/
+/server/.vscode/
+/server/.idea/
+/server/*.iml
+/server/.env
+/server/build/
+/server/.apt_generated
+/server/.factorypath
+/server/.springBeans
+/server/.sts4-cache
+/server/.mvn/wrapper/maven-wrapper.jar
